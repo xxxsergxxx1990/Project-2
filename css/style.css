@@ -1,37 +1,7 @@
-:root{
-  --primary-text-color:#212121;
-  --acent-text-color:#2196f3;
-}
 
-/*site nav*/
-.logo {
-  color: #000000;
-}
-.navigation {
-  color: var(--primary-text-color);
-}
-.navigation-link:hover,
-.navigation-link:focus {
-  color: var(--acent-text-color);
-}
-.mailto {
-  color: #acacb0;
-}
-.mailto:hover,
-.mailto:focus {
-  color: var(--acent-text-color);
-}
-.tel {
-  color: #acacb0;
-}
-.tel:focus,
-.tel:hover {
-  color: var(--acent-text-color);
-}
-/*section title*/
-.section-title {
-  color: var(--primary-text-color);
-}
+
+
+
 /*hero*/
 .hero-title {
   color: #ffffff;
@@ -51,4 +21,3 @@
 .position{
   color: #757575;
 }
-/*footer*/
