@@ -1,4 +1,31 @@
-body {  
-    background-color: #ffffff;
-    color:  #212121;
+
+/*site nav*/
+.logo {
+  color: #000000;
 }
+.navigation{
+color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus{
+color:#2196F3;
+}
+.mailto{
+  color: #ACACB0;
+}
+.mailto:hover,
+.mailto:focus{
+  color: #2196F3;
+}
+.tel{
+  color:#ACACB0;
+}
+.tel:focus,
+.tel:hover{
+  color:#2196F3;
+}
+/*section title*/
+.section title{
+  color: 212121;
+}
+/*hero*/
