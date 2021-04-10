@@ -1,47 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/portfolio.css">
-</head>
-<body>
-     <!--Заголовок сайта-->
-     <header>
-        <nav>
-          <a class="logo" href="">WebStudio</a>
-          <ul class="navigation">
-            <li><a href="./index.html" class="navigation-link">Студия</a></li>
-            <li><a href="./portfolio.html" class="navigation-link.current">Портфолио</a></li>
-            <li><a href="" class="navigation-link">Контакты</a></li>
-          </ul>
-        </nav>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="таблица стилей"
+    />
+    <link rel="stylesheet" href="../Project-2/css/style.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+  </head>
+
+  <body>
+    <!--Заголовок сайта-->
+    <header class="page-header">
+      <nav class="page-nav">
+        <a class="page-nav-logo" href="./index.html">
+          Web <span class="page-nav-stud">Studio</span></a
+        >
         <ul>
-          <li><a href="mailto" class="mailto">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="tel">+380961111111</a></li>
+          <li><a href="./index.html" class="page-nav-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="page-nav-link">Портфолио</a></li>
+          <li><a href="" class="page-nav-link">Контакты</a></li>
         </ul>
-      </header>
-        <main>
+      </nav>
+      <ul>
+        <li><a href="mailto" class="text-acent-mail">info@devstudio.com</a></li>
+        <li>
+          <a href="tel:+380961111111" class="text-acent">+380961111111</a>
+        </li>
+      </ul>
+    </header>
+    <main class="partfolio-main">
+      <section class="partfolio-list">
+        <h1 class="hidden">Партфолио</h1>
+        <!--список радиокнопок-->
 
+        <ul class="partfolio-list-but">
+          <li><button class="one-bt" type="button">Все</button></li>
+          <li><button class="one-bt" type="button">сайты</button></li>
+          <li><button class="one-bt" type="button">Приложения</button></li>
+          <li><button class="one-bt" type="button">Дизайн</button></li>
+          <li><button class="one-bt" type="button">Маркетинг</button></li>
+        </ul>
 
+        <!--предложения-->
+        <ul class="partfolio-list-image">
+          <li>
+            <img src="images/img31.jpg" width="370" alt="технохряк" />
+            <h2 class="title-image">Технохряк</h2>
+            <p class="text-acent">Веб-сайт</p>
+          </li>
 
-        </main>
+          <li>
+            <img src="images/баскет.jpg" width="370" alt="баскетбол" />
+            <h2 lang="en" class="title-image">
+              Постер New Orlean vs Golden Star
+            </h2>
+            <p class="text-acent">Дизайн</p>
+          </li>
 
-    <H1>Портфолио</H1>
+          <li>
+            <img src="images/сиафуд.jpg" width="370" alt="ресторан" />
+            <h2 class="title-image">Ресторан Seafood</h2>
+            <p class="text-acent">Приложение</p>
+          </li>
+          <li>
+            <img src="images/наушники.jpg" width="370" alt="наушники" />
+            <h2 class="title-image">Проект Prime</h2>
+            <p class="text-acent">Маркетинг</p>
+          </li>
 
+          <li>
+            <img src="images/коробочки.jpg" width="370" alt="коробочки" />
+            <h2 class="title-image">Проект Boxes</h2>
+            <p class="text-acent">Приложение</p>
+          </li>
 
-    <footer>
-        <a class="logo" href="">WebStudio</a>
-        <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <ul>
-            <li><a href="mailto" class="mailto">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="tel">+380961111111</a></li>
-          </ul>
-        </address>
-      </footer>
-</body>
+          <li>
+            <img src="images/монитор.jpg" width="370" alt="монитор" />
+            <h2 lang="en" class="title-image">Inspiration has no Borders</h2>
+            <p class="text-acent">Веб-сайт</p>
+          </li>
+          <li>
+            <img src="images/книга.jpg" width="370" alt="книга" />
+            <h2 lang="en" class="title-image">Издание Limited Edition</h2>
+            <p class="text-acent">Дизайн</p>
+          </li>
+          <li>
+            <img src="images/лаб.jpg" width="370" alt="лаб" />
+            <h2 class="title-image">Проект LAB</h2>
+            <p class="text-acent">Маркетинг</p>
+          </li>
+          <li>
+            <img src="images/ноут.jpg" width="370" alt="ноутбук" />
+            <h2 lang="en" class="title-image">Growing Business</h2>
+            <p class="text-acent">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <a class="page-nav-logo" href="index.html">
+        Web <span class="page-nav-stud">Studio</span></a
+      >
+      <address>
+        <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul>
+          <li><a class="adress-mail" href="mailto">info@devstudio.com</a></li>
+          <li>
+            <a class="text-acent" href="tel:+380961111111">+380961111111</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>

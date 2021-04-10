@@ -1,0 +1,16 @@
+.partfolio-list-but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.one-bt:hover,
+.one-bt:focus {
+  background-color: var(--text-hover-color);
+  color: var(--primary-white-color);
+}
+.title-image {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
