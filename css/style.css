@@ -36,7 +36,7 @@ a{
   text-decoration: none;
 }
 .page-nav-stud {
-  color: #000000;
+  color: var(--primary-white-color);
 }
 .page-nav-link:hover,
 .page-nav-link:focus {
@@ -51,9 +51,7 @@ a{
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.text-acent {
-  color: var(--text-acent-color);
-}
+
 .text-acent-mail {
   color: var(--text-acent-color);
   font-weight: 500;
@@ -90,6 +88,7 @@ a{
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);

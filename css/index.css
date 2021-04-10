@@ -5,14 +5,18 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.section-hero{
-  background: #2F303A;
+.section-hero {
+  background: #2f303a;
 }
 .section-hero-but {
   background-color: #2196f3;
   color: var(--primary-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1,87;
+  letter-spacing: 0.06em;
 }
 
 .section-comand {
@@ -20,11 +24,20 @@
 }
 .capabilities-title {
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.text-acent{
+  font-style: normal;
+font-weight: normal;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-acent-color);
+
 }
 .occupation-title {
   font-family: Roboto;
