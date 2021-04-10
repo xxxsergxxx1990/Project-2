@@ -1,7 +1,7 @@
 .partfolio-list-but {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 }
 .one-button:hover,
 .one-button:focus {
@@ -16,12 +16,12 @@
 .title-image {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .text-acent {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
