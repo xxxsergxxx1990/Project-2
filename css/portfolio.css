@@ -3,14 +3,25 @@
   font-size: 16px;
   line-height: 26px;
 }
-.one-bt:hover,
-.one-bt:focus {
+.one-button:hover,
+.one-button:focus {
   background-color: var(--text-hover-color);
   color: var(--primary-white-color);
 }
+.one-bt {
+  font-weight: 500;
+  
+}
+
 .title-image {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
+}
+
+.text-acent {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }

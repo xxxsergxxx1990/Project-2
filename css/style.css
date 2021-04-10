@@ -14,9 +14,13 @@ var(--primary-white-color);
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
+  font-family: "Roboto";
 }
 ul {
   list-style: none;
+}
+a{
+  text-decoration: none;
 }
 
 .page-header {
@@ -24,16 +28,20 @@ ul {
 }
 .page-nav-logo {
   color: var(--text-hover-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .page-nav-stud {
   color: #000000;
 }
 .page-nav-link:hover,
 .page-nav-link:focus {
+  color: var(--text-hover-color);
+}
+.page-nav-link.current {
   color: var(--text-hover-color);
 }
 .page-nav-link {
@@ -47,6 +55,10 @@ ul {
 }
 .text-acent-mail {
   color: var(--text-acent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .text-acent-mail:focus,
 .text-acent-mail:hover {
@@ -54,13 +66,24 @@ ul {
 }
 .page-nav-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .page-footer {
   background-color: #2f303a;
 }
 .adress {
   color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .adress-mail {
+  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
