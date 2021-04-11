@@ -5,8 +5,9 @@
 }
 .one-button:hover,
 .one-button:focus {
+  color: #ffffff;
   background-color: #2196F3
-  color: #FFFFFF
+  
 }
 .one-button{
 font-family: Roboto;
@@ -15,7 +16,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62
 letter-spacing: 0.03em;
-color: var(--primary-white-color);
+
+
 }
 
 .title-image {

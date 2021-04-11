@@ -38,6 +38,9 @@ a{
 .page-nav-stud {
   color: var(--primary-white-color);
 }
+.page-nav-stud-log{
+  color:var(--primary-text-color);
+}
 .page-nav-link:hover,
 .page-nav-link:focus {
   color: var(--text-hover-color);
