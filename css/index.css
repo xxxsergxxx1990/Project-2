@@ -2,20 +2,21 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 .section-hero {
   background: #2f303a;
+  text-align: center;
 }
 .section-hero-but {
   background-color: #2196f3;
   color: var(--primary-white-color);
   font-weight: bold;
   font-size: 16px;
-  line-height: 1,87;
+  line-height: 1, 87;
   letter-spacing: 0.06em;
 }
 
@@ -30,14 +31,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.text-acent{
+.text-acent {
   font-style: normal;
-font-weight: normal;
+  font-weight: normal;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--text-acent-color);
-
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-acent-color);
 }
 .occupation-title {
   font-family: Roboto;
@@ -47,6 +47,7 @@ color: var(--text-acent-color);
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .comand-title {
   font-family: Roboto;
   font-weight: bold;
@@ -61,4 +62,89 @@ color: var(--text-acent-color);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+
+.section-hero {
+  margin-bottom: 94px;
+}
+.section-hero-title {
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-hero-but {
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+.text-acent-mail {
+  color: var(--text-acent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+}
+
+.text-acent-mail:focus,
+.text-acent-mail:hover {
+  color: var(--text-hover-color);
+}
+
+.hidden-container {
+  display: flex;
+  width: 1170px;
+  height: 101px;
+  margin-bottom: 94px;
+}
+
+.hidden-mini {
+  width: 270px;
+}
+
+.one-team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.one-team-image {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.occupation-title {
+  margin-bottom: 50px;
+}
+.occupation-image  {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.list-image {
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 3 * 30) / 3);
+}
+
+.comand-title {
+  margin-bottom: 50px;
+}
+.one-team{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.one-team-image:not(:last-child) {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 4 * 30) / 4);
 }

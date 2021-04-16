@@ -16,35 +16,47 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/portfolio.css"/>
+    <link rel="stylesheet" href="./css/index.css">
   </head>
-
+   
   <body>
     <!--Заголовок сайта-->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="page-nav-logo" href="./index.html">
-          Web <span class="page-nav-stud-log">Studio</span></a
-        >
-        <ul>
-          <li><a href="./index.html" class="page-nav-link">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="page-nav-link current"
-              >Портфолио</a
+      <div class="container">
+        <nav class="page-nav">
+          <div class="logo-container">
+            <a class="page-nav-logo" href="./index.html">
+              Web <span class="page-nav-stud-log">Studio</span></a
             >
+          </div>
+          <ul class="page-nav-link-ul">
+            <li class="item-nav">
+              <a href="./index.html" class="page-nav-link ">Студия</a>
+            </li>
+            <li class="item-nav">
+              <a href="./portfolio.html" class="page-nav-link current">Портфолио</a>
+            </li>
+            <li class="item-nav">
+              <a href="" class="page-nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="nav-link">
+          <li>
+            <a href="mailto" class="text-acent-mail">info@devstudio.com</a>
           </li>
-          <li><a href="" class="page-nav-link">Контакты</a></li>
+          <li>
+            <a href="tel:+380961111111" class="text-acent">+380961111111</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto" class="text-acent-mail">info@devstudio.com</a></li>
-        <li>
-          <a href="tel:+380961111111" class="text-acent">+380961111111</a>
-        </li>
-      </ul>
+      </div>
     </header>
+  <div class="container">
     <main class="partfolio-main">
+      
       <section class="partfolio-list">
+        
         <h1 class="hidden visually-hidden">Партфолио</h1>
         <!--список радиокнопок-->
 
@@ -57,14 +69,15 @@
         </ul>
 
         <!--предложения-->
-        <ul class="partfolio-list-image">
-          <li>
+        <div class="container">
+        <ul class="partfolio-list-image container">
+          <li class="partfolio-cont">
             <img src="images/img31.jpg" width="370" alt="технохряк" />
             <h2 class="title-image">Технохряк</h2>
             <p class="text-acent">Веб-сайт</p>
           </li>
 
-          <li>
+          <li class="partfolio-cont">
             <img src="images/баскет.jpg" width="370" alt="баскетбол" />
             <h2 lang="en" class="title-image">
               Постер New Orlean vs Golden Star
@@ -72,60 +85,69 @@
             <p class="text-acent">Дизайн</p>
           </li>
 
-          <li>
+          <li class="partfolio-cont">
             <img src="images/сиафуд.jpg" width="370" alt="ресторан" />
             <h2 class="title-image">Ресторан Seafood</h2>
             <p class="text-acent">Приложение</p>
           </li>
-          <li>
+          <li class="partfolio-cont">
             <img src="images/наушники.jpg" width="370" alt="наушники" />
             <h2 class="title-image">Проект Prime</h2>
             <p class="text-acent">Маркетинг</p>
           </li>
 
-          <li>
+          <li class="partfolio-cont">
             <img src="images/коробочки.jpg" width="370" alt="коробочки" />
             <h2 class="title-image">Проект Boxes</h2>
             <p class="text-acent">Приложение</p>
           </li>
 
-          <li>
+          <li class="partfolio-cont">
             <img src="images/монитор.jpg" width="370" alt="монитор" />
             <h2 lang="en" class="title-image">Inspiration has no Borders</h2>
             <p class="text-acent">Веб-сайт</p>
           </li>
-          <li>
+          <li class="partfolio-cont">
             <img src="images/книга.jpg" width="370" alt="книга" />
             <h2 lang="en" class="title-image">Издание Limited Edition</h2>
             <p class="text-acent">Дизайн</p>
           </li>
-          <li>
+          <li class="partfolio-cont">
             <img src="images/лаб.jpg" width="370" alt="лаб" />
             <h2 class="title-image">Проект LAB</h2>
             <p class="text-acent">Маркетинг</p>
           </li>
-          <li>
+          <li class="partfolio-cont">
             <img src="images/ноут.jpg" width="370" alt="ноутбук" />
             <h2 lang="en" class="title-image">Growing Business</h2>
             <p class="text-acent">Приложение</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
-
+  </div>
     <footer class="page-footer">
-      <a class="page-nav-logo" href="./index.html">
-        Web <span class="page-nav-stud">Studio</span></a
-      >
-      <address>
-        <p class="adress ">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
-          <li><a class="adress-mail " href="mailto">info@devstudio.com</a></li>
-          <li>
-            <a class="text-acent " href="tel:+380961111111">+380961111111</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <div class="footer-blok">
+          <a class="page-nav-logo" href="./index.html">
+            Web <span class="page-nav-stud">Studio</span></a
+          >
+          <address>
+            <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+              <li>
+                <a class="adress-mail" href="mailto">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="text-acent adress" href="tel:+380961111111"
+                  >+380961111111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
