@@ -48,22 +48,24 @@ a {
 }
 .page-header {
   background: var(--primary-white-color);
+  padding:auto;
+  
+
 }
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 93px;
   display: flex;
   align-items: center;
 }
-.logo-container {
-  display: inline-flex;
-  margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+.page-nav{
+  display: flex;
+  align-items: center;
 }
+
 .page-nav-logo {
   color: var(--text-hover-color);
   font-family: "Raleway", sans-serif;
@@ -71,6 +73,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: block;
 }
 .page-nav-stud {
   color: var(--primary-white-color);
@@ -78,21 +81,18 @@ a {
 .page-nav-stud-log {
   color: var(--primary-text-color);
 }
-.page-nav-link-ul {
-  display: inline-flex;
-}
+
+
 .item-nav:not(:last-child) {
   margin-right: 50px;
 }
-.item-nav {
-  margin-bottom: 32px;
-  margin-top: 32px;
-}
-.nav-link {
-  display: inline-flex;
+
+.nav-link:not(:last-child) {
+  align-items: flex-end;
+  display: flex;
   margin-left: auto;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  
+  
 }
 .page-nav-link {
   color: var(--primary-text-color);
@@ -115,8 +115,24 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.nav-link{
+  display: flex;
+  margin-left:auto;
+}
+.page-nav-link-ul {
+  display: flex;
+  padding: auto;
+  margin : auto; 
+}
+.text-acent-mail{
+  display: block;
+}
+.text-acent{
+  display: block;
+}
 
 /*HERO*/
+
 
 
 /*FOOTER*/
