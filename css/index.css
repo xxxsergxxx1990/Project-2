@@ -1,3 +1,4 @@
+/*HERO section*/
 .section-hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -11,6 +12,8 @@
 .section-hero {
   background: #2f303a;
   text-align: center;
+    padding-top: 200px;
+  padding-bottom: 200px;
 }
 .section-hero-but {
   background-color: #2196f3;
@@ -28,15 +31,23 @@
 }
 
 
-.section-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-bottom: 94px;
+
+/*HIDDEN*/
+.hidden-container {
+  display: flex;
+  align-self: start;
+  
+}
+
+
+.hidden-mini {
+  width: 270px;
 }
 
 .section-comand {
   background-color: #f5f4fa;
 }
+/*возможности*/
 .capabilities-title {
   font-family: Roboto;
   font-weight: 700;
@@ -53,6 +64,7 @@
   letter-spacing: 0.03em;
   color: var(--text-acent-color);
 }
+/*род занятий*/
 .occupation-title {
   font-family: Roboto;
   font-weight: bold;
@@ -60,8 +72,32 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
+
 }
 
+.occupation-section{
+ margin-top: 94px;
+ margin-bottom:94px;
+
+}
+
+
+.occupation-image  {
+  display: flex;
+ flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0px;
+}
+
+.list-image :not(:last-child){
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+}
+/*команда*/
 .comand-title {
   font-family: Roboto;
   font-weight: bold;
@@ -77,9 +113,6 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
-
-
 .text-acent-mail {
   color: var(--text-acent-color);
   font-weight: 500;
@@ -88,64 +121,35 @@
   letter-spacing: 0.02em;
   margin-right: 50px;
 }
-
 .text-acent-mail:focus,
 .text-acent-mail:hover {
   color: var(--text-hover-color);
 }
-
-.hidden-container {
-  display: flex;
-  
-  
-}
-.hidden-title{
-  padding-top: 94px;
-  padding-bottom: 94px;
+.comand-title {
+  margin-bottom: 50px;
 }
 
-.hidden-mini {
-  width: 270px;
-}
+
+
+
+
+
 
 .one-team {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-}
-
-.one-team-image {
-  margin-left: 30px;
-  margin-top: 30px;
-}
-.occupation-title {
-  margin-bottom: 50px;
-}
-.occupation-image  {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-.list-image {
-  text-align: center;
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc((100% - 3 * 30) / 3);
-}
-
-.comand-title {
-  margin-bottom: 50px;
-}
-.one-team{
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  
 }
 .one-team-image:not(:last-child) {
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100% - 4 * 30) / 4);
+  flex-basis: calc((100% - 4 * 30px) / 4);
 }
+
+
+
+
+
+

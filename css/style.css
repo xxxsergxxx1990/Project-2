@@ -41,6 +41,8 @@ p {
 }
 ul {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -48,8 +50,8 @@ a {
 }
 .page-header {
   background: var(--primary-white-color);
-  padding:auto;
-  
+  padding-top:24px ;
+  padding-bottom: 24px;
 
 }
 .container {
@@ -63,8 +65,10 @@ a {
 }
 .page-nav{
   display: flex;
-  align-items: center;
+  align-items:center;
+
 }
+ 
 
 .page-nav-logo {
   color: var(--text-hover-color);
@@ -83,9 +87,7 @@ a {
 }
 
 
-.item-nav:not(:last-child) {
-  margin-right: 50px;
-}
+
 
 .nav-link:not(:last-child) {
   align-items: flex-end;
@@ -100,6 +102,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
 
 .page-nav-link:hover,
@@ -109,20 +112,20 @@ a {
 .page-nav-link.current {
   color: var(--text-hover-color);
 }
-.page-nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.nav-link{
+
+.nav-link{ 
   display: flex;
-  margin-left:auto;
+  align-items: center;
+  margin-left:auto; 
 }
+
 .page-nav-link-ul {
   display: flex;
   padding: auto;
   margin : auto; 
+}
+.item-nav {
+  margin-left: 50px;
 }
 .text-acent-mail{
   display: block;
@@ -131,13 +134,15 @@ a {
   display: block;
 }
 
-/*HERO*/
+
 
 
 
 /*FOOTER*/
 .page-footer {
   background-color: #2f303a;
+  padding-top:60px;
+  padding-bottom:60px;
 }
 
 .adress {
