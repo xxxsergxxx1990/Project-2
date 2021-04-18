@@ -50,11 +50,10 @@ a {
 }
 .page-header {
   background: var(--primary-white-color);
-  padding-top:24px ;
+  padding-top: 24px;
   padding-bottom: 24px;
-
 }
-.header-container{
+.header-container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -70,14 +69,11 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
 }
-.page-nav{
+.page-nav {
   display: flex;
-  align-items:center;
-
+  align-items: center;
 }
- 
 
 .page-nav-logo {
   color: var(--text-hover-color);
@@ -96,15 +92,15 @@ a {
   color: var(--primary-text-color);
 }
 
-
-
-
-.nav-link:not(:last-child) {
+.nav-link {
   align-items: flex-end;
   display: flex;
   margin-left: auto;
-  
-  
+  flex-wrap: wrap;
+  margin-right: -50px;
+}
+.link-right:first-child{
+  margin-right: 50px;
 }
 .page-nav-link {
   color: var(--primary-text-color);
@@ -112,7 +108,6 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
 }
 
 .page-nav-link:hover,
@@ -124,38 +119,40 @@ a {
 }
 .page-nav-link-ul {
   display: flex;
-}
-.item-nav {
-  margin-right: 50px;
+  align-self: start;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: -50px;
 }
 
-.nav-link { 
-  display: flex;
+.item-nav :not(:last-child){
+  margin-right: 50px;
   align-items: center;
-  margin-left:auto; 
   
 }
-.link-right :not(:last-child){
+
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  align-self: start;
+  flex-wrap: wrap;
+  margin-right: -50px;
+}
+.link-right :first-child {
   margin-right: 50px;
 }
 
-
-.text-acent-mail{
+.text-acent-mail {
   display: block;
 }
-.text-acent{
-  display: block;
-}
-
-
-
 
 
 /*FOOTER*/
 .page-footer {
   background-color: #2f303a;
-  padding-top:60px;
-  padding-bottom:60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress {
@@ -173,12 +170,22 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.logo-footer{
+.logo-footer {
   color: var(--text-hover-color);
-font-family: "Raleway", sans-serif;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-text-decoration: none;
-display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  display: block;
 }
+.text-acent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-acent-color);
+  
+    display: block;
+  }
