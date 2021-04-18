@@ -1,11 +1,14 @@
+.partfolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .partfolio-list-but {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
     display: flex;
   justify-content: center;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  
   margin-bottom: 56px;
 }
 
@@ -20,7 +23,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  margin-left: 8px;
+  
+}
+.one-button  {
+  margin-right: 8px;
 }
 
 .title-image {
@@ -28,7 +34,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
+
 }
 
 
@@ -43,18 +49,23 @@
 
 }
 
+
 .partfolio-list-image-container{
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.partfolio-cont :not(:last-child){
+.partfolio-cont{
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
-/*:not(:last-child) */
+.cont-part{
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .text-acent.adress.to{
   font-size: 14px;

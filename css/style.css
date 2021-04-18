@@ -87,6 +87,7 @@ a {
   line-height: 1.19;
   text-decoration: none;
   display: block;
+  margin-right: 93px;
 }
 .page-nav-stud {
   color: var(--primary-white-color);
@@ -121,21 +122,24 @@ a {
 .page-nav-link.current {
   color: var(--text-hover-color);
 }
+.page-nav-link-ul {
+  display: flex;
+}
+.item-nav {
+  margin-right: 50px;
+}
 
-.nav-link{ 
+.nav-link { 
   display: flex;
   align-items: center;
   margin-left:auto; 
+  
+}
+.link-right :not(:last-child){
+  margin-right: 50px;
 }
 
-.page-nav-link-ul {
-  display: flex;
-  padding: auto;
-  margin : auto; 
-}
-.item-nav {
-  margin-left: 50px;
-}
+
 .text-acent-mail{
   display: block;
 }
