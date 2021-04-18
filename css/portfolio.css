@@ -1,15 +1,19 @@
-.partfolio{
+.partfolio {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .partfolio-list-but {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-    display: flex;
+  display: flex;
   justify-content: center;
-  
   margin-bottom: 56px;
+}
+.button-part  {
+  margin-right: 8px;
 }
 
 .one-button:hover,
@@ -23,10 +27,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  
-}
-.one-button  {
-  margin-right: 8px;
 }
 
 .title-image {
@@ -34,9 +34,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
 }
-
 
 .text-acent {
   font-style: normal;
@@ -45,32 +43,29 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-acent-color);
-  padding-left: 30px;
-
+  padding-left: auto;
 }
 
-
-.partfolio-list-image-container{
+.partfolio-list-image-container {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.partfolio-cont{
+.partfolio-cont {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
-.cont-part{
+.cont-part {
   margin: 0px;
   padding: 0px;
 }
 
-
-.text-acent.adress.to{
+.text-acent.adress.to {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--text-acent-color);
-padding: 0px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-acent-color);
+  padding: 0px;
 }
