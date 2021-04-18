@@ -39,6 +39,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-acent-color);
+  padding-left: 30px;
 
 }
 
@@ -60,4 +61,5 @@
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-acent-color);
+padding: 0px;
 }
