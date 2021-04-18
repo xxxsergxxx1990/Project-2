@@ -2,13 +2,13 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-}
-.partfolio-list-but {
-  display: flex;
+    display: flex;
   justify-content: center;
   padding-top: 6px;
   padding-bottom: 6px;
+  margin-bottom: 56px;
 }
+
 .one-button:hover,
 .one-button:focus {
   color: #ffffff;
@@ -20,6 +20,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  margin-left: 8px;
 }
 
 .title-image {
@@ -27,7 +28,9 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 24px;
 }
+
 
 .text-acent {
   font-style: normal;
@@ -36,9 +39,10 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-acent-color);
+
 }
 
-.partfolio-list-image{
+.partfolio-list-image-container{
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -50,3 +54,10 @@
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
 /*:not(:last-child) */
+
+.text-acent.adress.to{
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-acent-color);
+}

@@ -36,6 +36,8 @@
 .hidden-container {
   display: flex;
   align-self: start;
+  margin-top: 94px;
+ 
   
 }
 
@@ -72,7 +74,9 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+
+  margin-top: 94px;
+
 
 }
 
@@ -88,10 +92,10 @@
  flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding: 0px;
+ padding-top: 50px;
 }
 
-.list-image :not(:last-child){
+.list-image {
   align-items: center;
   margin-left: 30px;
   margin-top: 30px;
@@ -142,7 +146,7 @@
   margin-top: -30px;
   
 }
-.one-team-image:not(:last-child) {
+.one-team-image{
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 4 * 30px) / 4);
