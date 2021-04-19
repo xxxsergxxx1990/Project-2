@@ -93,7 +93,7 @@ a {
 }
 
 .nav-link {
-  align-items: flex-end;
+ /* align-items: flex-end;*/
   display: flex;
   margin-left: auto;
   flex-wrap: wrap;
@@ -119,15 +119,12 @@ a {
 }
 .page-nav-link-ul {
   display: flex;
-  align-self: start;
-  flex-wrap: wrap;
   margin-left: auto;
-  margin-right: -50px;
+
 }
 
-.item-nav :not(:last-child){
+.item-nav:not(:last-child){
   margin-right: 50px;
-  align-items: center;
   
 }
 
@@ -135,11 +132,11 @@ a {
 .nav-link {
   display: flex;
   align-items: center;
-  align-self: start;
+  
   flex-wrap: wrap;
-  margin-right: -50px;
+  
 }
-.link-right :first-child {
+.link-right:not(:last-child) {
   margin-right: 50px;
 }
 
